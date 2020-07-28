@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  background: #000;
+  background: #fff;
   font-family: 'Work Sans', sans-serif;
   text-align: center;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background: #fff;
+    background: #000;
   /*background: #55d6aa;*/
   /*background:transparent;*/
 }
@@ -102,13 +102,13 @@ nav a:hover::before {
 
 #Projects {
   height: 950px;
-  background: white;
+  background: black;
   display: inline-block;
   width: 100%;
 }
 
 #Contact {
-  height: 500px;
+  height: 950px;
   background: white;
   display: inline-block;
   width: 100%;
@@ -116,7 +116,7 @@ nav a:hover::before {
 
 .mapouter{
   position:relative;
-  background: white;
+  background: black;
   text-align:right;
   height:500px;
   width:950px;
