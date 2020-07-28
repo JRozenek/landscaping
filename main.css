@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+    background: #fff;
+  /*background: #55d6aa;*/
+  /*background:transparent;*/
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+  float: right;
+  width: 80%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #000;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #55d6aa;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  /*background-color: #55d6aa;*/
+  background-color: #55d6aa;
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.Navbar {
+  overflow: hidden;
+  background-color: #fff; /* NAVIGATION BAR COLOR*/
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+}
+
+#Home {
+  height: 950px;
+  display: inline-block;
+  width: 100%;
+}
+
+#Projects {
+  height: 950px;
+  background: white;
+  display: inline-block;
+  width: 100%;
+}
+
+#Contact {
+  height: 500px;
+  background: white;
+  display: inline-block;
+  width: 100%;
+}
+
+.mapouter{
+  position:relative;
+  background: white;
+  text-align:right;
+  height:500px;
+  width:950px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:950px;
+  padding-bottom: 100px;
+}
+
+/*
+.Main {
+  margin-top: 63px;
+}
+*/
